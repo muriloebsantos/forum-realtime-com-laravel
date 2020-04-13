@@ -6,7 +6,7 @@ pipeline {
                 branch 'develop'
             }
             steps {
-                sh 'componser install'
+                sh 'composer install'
             }
         }
     }
